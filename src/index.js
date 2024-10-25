@@ -3,11 +3,20 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-
+import Header  from './components/Header';
+import Fetch from './components/Fetch';
+import EmployeeEmail from './components/EmployeeEmail';
+import EmailDetails from './components/EmailDetails';
+import Message from './components/Message';
+import EmailContainer from './components/EmailContainer';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <App />
+    <Header />
+    <EmployeeEmail />
+    <EmailContainer />
+    <Message />
   </React.StrictMode>
 );
 
